@@ -1,0 +1,36 @@
+{
+  "name": "html-client-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for Cardshifter HTML Client rewrite using React.",
+  "main": "src/client/app/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Francis Veilleux-Gaboury",
+  "license": "AFL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phrancis/html-client-sandbox.git"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Phrancis/html-client-sandbox/issues"
+  },
+  "homepage": "https://github.com/Phrancis/html-client-sandbox#readme"
+}
